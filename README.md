@@ -1,8 +1,8 @@
 # ArgMining 2025 Submission – Team "gottfried-wilhelm-leibniz"
 
-## Critical Question Generation (CQG)
+## Critical Question Generation (CQs-Gen)
 
-This repository contains the complete pipeline developed by Team **gottfried-wilhelm-leibniz** for the **Critical Question Generation (CQG) Shared Task** at **ArgMining 2025**.
+This repository contains the complete pipeline developed by Team **gottfried-wilhelm-leibniz** for the **Critical Question Generation (CQs-Gen) Shared Task** at **ArgMining 2025**.
 
 ## Task Overview
 
