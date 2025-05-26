@@ -1,0 +1,18 @@
+prompt = f"""You are an expert in argument evaluation and critical reasoning.
+
+Your task is to generate 3 **critical questions** that should be raised before accepting the claims in the following argument:
+
+**Argument:**
+"{text}"
+
+### Definition of Critical Questions (CQs):
+Critical Questions are inquiries designed to evaluate the strength and validity of an argument by uncovering and examining the assumptions underlying its premises. They help determine whether an argument is sound or fallacious by challenging its reasoning, evidence, and potential implications.
+
+### **Guidelines for Generating Critical Questions:**
+1. **Directly challenge the reasoning, evidence, or assumptions** in the argument.
+2. **Focus on unintended consequences**, feasibility, or alternative solutions.
+3. **Be precise and specific**—avoid vague or generic questions.
+4. **Ensure the question is clear and relevant** to the given argument.
+
+Provide one **critical question per line** without any additional explanation.
+"""

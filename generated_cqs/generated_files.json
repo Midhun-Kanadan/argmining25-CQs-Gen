@@ -1,0 +1,74 @@
+[
+    [
+        "T:\\Master's Thesis\\Thesis\\Github\\argmining25-cq-gen\\dataset\\sample.json",
+        "T:\\Master's Thesis\\Thesis\\Github\\argmining25-cq-gen\\generated_cqs\\gemma2\\1\\Sample_CQs\\gemma2_prompt1_sample.json"
+    ],
+    [
+        "T:\\Master's Thesis\\Thesis\\Github\\argmining25-cq-gen\\dataset\\validation.json",
+        "T:\\Master's Thesis\\Thesis\\Github\\argmining25-cq-gen\\generated_cqs\\gemma2\\1\\Validation_CQs\\gemma2_prompt1_validation.json"
+    ],
+    [
+        "T:\\Master's Thesis\\Thesis\\Github\\argmining25-cq-gen\\dataset\\test.json",
+        "T:\\Master's Thesis\\Thesis\\Github\\argmining25-cq-gen\\generated_cqs\\gemma2\\1\\Test_CQs\\gemma2_prompt1_test.json"
+    ],
+    [
+        "T:\\Master's Thesis\\Thesis\\Github\\argmining25-cq-gen\\dataset\\sample.json",
+        "T:\\Master's Thesis\\Thesis\\Github\\argmining25-cq-gen\\generated_cqs\\gemma2\\9\\Sample_CQs\\gemma2_prompt9_sample.json"
+    ],
+    [
+        "T:\\Master's Thesis\\Thesis\\Github\\argmining25-cq-gen\\dataset\\validation.json",
+        "T:\\Master's Thesis\\Thesis\\Github\\argmining25-cq-gen\\generated_cqs\\gemma2\\9\\Validation_CQs\\gemma2_prompt9_validation.json"
+    ],
+    [
+        "T:\\Master's Thesis\\Thesis\\Github\\argmining25-cq-gen\\dataset\\test.json",
+        "T:\\Master's Thesis\\Thesis\\Github\\argmining25-cq-gen\\generated_cqs\\gemma2\\9\\Test_CQs\\gemma2_prompt9_test.json"
+    ],
+    [
+        "T:\\Master's Thesis\\Thesis\\Github\\argmining25-cq-gen\\dataset\\sample.json",
+        "T:\\Master's Thesis\\Thesis\\Github\\argmining25-cq-gen\\generated_cqs\\phi4\\1\\Sample_CQs\\phi4_prompt1_sample.json"
+    ],
+    [
+        "T:\\Master's Thesis\\Thesis\\Github\\argmining25-cq-gen\\dataset\\validation.json",
+        "T:\\Master's Thesis\\Thesis\\Github\\argmining25-cq-gen\\generated_cqs\\phi4\\1\\Validation_CQs\\phi4_prompt1_validation.json"
+    ],
+    [
+        "T:\\Master's Thesis\\Thesis\\Github\\argmining25-cq-gen\\dataset\\test.json",
+        "T:\\Master's Thesis\\Thesis\\Github\\argmining25-cq-gen\\generated_cqs\\phi4\\1\\Test_CQs\\phi4_prompt1_test.json"
+    ],
+    [
+        "T:\\Master's Thesis\\Thesis\\Github\\argmining25-cq-gen\\dataset\\sample.json",
+        "T:\\Master's Thesis\\Thesis\\Github\\argmining25-cq-gen\\generated_cqs\\phi4\\9\\Sample_CQs\\phi4_prompt9_sample.json"
+    ],
+    [
+        "T:\\Master's Thesis\\Thesis\\Github\\argmining25-cq-gen\\dataset\\validation.json",
+        "T:\\Master's Thesis\\Thesis\\Github\\argmining25-cq-gen\\generated_cqs\\phi4\\9\\Validation_CQs\\phi4_prompt9_validation.json"
+    ],
+    [
+        "T:\\Master's Thesis\\Thesis\\Github\\argmining25-cq-gen\\dataset\\test.json",
+        "T:\\Master's Thesis\\Thesis\\Github\\argmining25-cq-gen\\generated_cqs\\phi4\\9\\Test_CQs\\phi4_prompt9_test.json"
+    ],
+    [
+        "T:\\Master's Thesis\\Thesis\\Github\\argmining25-cq-gen\\dataset\\sample.json",
+        "T:\\Master's Thesis\\Thesis\\Github\\argmining25-cq-gen\\generated_cqs\\gemma3\\1\\Sample_CQs\\gemma3_prompt1_sample.json"
+    ],
+    [
+        "T:\\Master's Thesis\\Thesis\\Github\\argmining25-cq-gen\\dataset\\validation.json",
+        "T:\\Master's Thesis\\Thesis\\Github\\argmining25-cq-gen\\generated_cqs\\gemma3\\1\\Validation_CQs\\gemma3_prompt1_validation.json"
+    ],
+    [
+        "T:\\Master's Thesis\\Thesis\\Github\\argmining25-cq-gen\\dataset\\test.json",
+        "T:\\Master's Thesis\\Thesis\\Github\\argmining25-cq-gen\\generated_cqs\\gemma3\\1\\Test_CQs\\gemma3_prompt1_test.json"
+    ],
+    [
+        "T:\\Master's Thesis\\Thesis\\Github\\argmining25-cq-gen\\dataset\\sample.json",
+        "T:\\Master's Thesis\\Thesis\\Github\\argmining25-cq-gen\\generated_cqs\\gemma3\\9\\Sample_CQs\\gemma3_prompt9_sample.json"
+    ],
+    [
+        "T:\\Master's Thesis\\Thesis\\Github\\argmining25-cq-gen\\dataset\\validation.json",
+        "T:\\Master's Thesis\\Thesis\\Github\\argmining25-cq-gen\\generated_cqs\\gemma3\\9\\Validation_CQs\\gemma3_prompt9_validation.json"
+    ],
+    [
+        "T:\\Master's Thesis\\Thesis\\Github\\argmining25-cq-gen\\dataset\\test.json",
+        "T:\\Master's Thesis\\Thesis\\Github\\argmining25-cq-gen\\generated_cqs\\gemma3\\9\\Test_CQs\\gemma3_prompt9_test.json"
+    ]
+]

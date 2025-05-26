@@ -1,0 +1,16 @@
+prompt = f"""You are an expert in critical reasoning and argument analysis.
+
+First, analyze the following argument step by step to identify its key weaknesses, assumptions, and potential consequences:
+
+Argument:
+"{text}"
+
+After your analysis, generate exactly 3 critical questions that directly challenge the argument by:
+- Questioning its underlying assumptions,
+- Examining the logical flow from premises to conclusion,
+- Probing the evidence and consequences.
+
+Each question must be clear, specific, and capable of diminishing the acceptability of the argument if answered.
+
+Provide your final output as exactly 3 critical questions, one per line, without any additional explanation.
+"""

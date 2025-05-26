@@ -1,0 +1,97 @@
+{
+    "Zewstain__641": {
+        "intervention_id": "Zewstain__641",
+        "intervention": "Zewstain: \"It seemed like that was most of her argument. Being a woman\nHow will you differ from Obama? Hillary: As a woman it's clear. Cooper: Any policy differences? Hillary: Hello, I'm a woman\"",
+        "dataset": "us2016reddit",
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "Does being a woman inherently provide a unique perspective or advantage relevant to policy decisions?"
+            },
+            {
+                "id": 1,
+                "cq": "What specific differences in policy positions would Hillary Clinton propose compared to Barack Obama?"
+            },
+            {
+                "id": 2,
+                "cq": "How does Hillary Clinton\u2019s assertion of being a woman relate to the core of her argument, and what evidence supports this connection?"
+            }
+        ]
+    },
+    "Javier_84": {
+        "intervention_id": "Javier_84",
+        "intervention": "Javier: \"I have no problem requiring the airlines to give notification of any \"known\" delays within 30 minutes of when they become aware of it.\nBUT, being a frequent traveler, I see all sorts of problems which are unavoidable and for which the airlines will be blamed by giving such notice with the intend that some flyers may be able to delay thier trip to the airport or even the departure gate.\nI know that many times the airlines can't also know exactly when a weather hold or a maintenance issue will be rectified and that the flight is then ready to go.\nMany time it can be surprisingly faster than expected.\nThe problem is that some flyers may then  wait before going to the airport,\nbut then find that the problem was rectified sooner than expected and the flight departed.\nOf course the flyer and the flyers rights organization will then crucify the airlines for such poor planning.\nFlyers need to grow up and quit pouting and blaming everthing on the airlines.\nThey can't have it both ways.\"",
+        "dataset": "rrd",
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "Does requiring airlines to notify of delays incentivize proactive traveler behavior, or does it primarily create a situation for potential blame regardless of the actual cause?"
+            },
+            {
+                "id": 1,
+                "cq": "What specific mechanisms could airlines employ to accurately and promptly communicate delay information, considering the complexities of unpredictable disruptions?"
+            },
+            {
+                "id": 2,
+                "cq": "Assuming airlines are genuinely striving to minimize disruption, how does the argument\u2019s focus on passenger \u201cpouting\u201d address the underlying systemic issues contributing to flight delays?"
+            }
+        ]
+    },
+    "CLINTON_1_1": {
+        "intervention_id": "CLINTON_1_1",
+        "intervention": "CLINTON: \"The central question in this election is really what kind of country we want to be and what kind of future we 'll build together\nToday is my granddaughter 's second birthday\nI think about this a lot\nwe have to build an economy that works for everyone , not just those at the top\nwe need new jobs , good jobs , with rising incomes\nI want us to invest in you\nI want us to invest in your future\njobs in infrastructure , in advanced manufacturing , innovation and technology , clean , renewable energy , and small business\nmost of the new jobs will come from small business\nWe also have to make the economy fairer\nThat starts with raising the national minimum wage and also guarantee , finally , equal pay for women 's work\nI also want to see more companies do profit-sharing\"",
+        "dataset": "US2016",
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "Does investing in infrastructure and renewable energy necessarily guarantee \u201crising incomes\u201d for all workers?"
+            },
+            {
+                "id": 1,
+                "cq": "What specific metrics will be used to determine if the economy is \u201cfairer\u201d after raising the minimum wage and ensuring equal pay?"
+            },
+            {
+                "id": 2,
+                "cq": "Could increased profit-sharing arrangements negatively impact company investment and long-term growth?"
+            }
+        ]
+    },
+    "TRUMP_125_1": {
+        "intervention_id": "TRUMP_125_1",
+        "intervention": "TRUMP: \"Secretary Clinton doesn't want to use a couple of words, and that's law and order\nIf we don't have it, we're not going to have a country\nwhen I look at what's going on in Charlotte, a city I love, a city where I have investments, when I look at what's going on throughout various parts of our country, whether it's\u2014I mean, I can just keep naming them all day long\nI just got today the, as you know, the endorsement of the Fraternal Order of Police, we just\u2014just came in\nWe have endorsements from, I think, almost every police group, very\u2014I mean, a large percentage of them in the United States\nWe have a situation where we have our inner cities, African- Americans, Hispanics are living in hell\nit's so dangerous\nYou walk down the street, you get shot\nIn Chicago, they've had thousands of shootings, thousands since January 1st\nI'm saying, where is this\nIs this a war-torn country\nWhat are we doing\nwe have to stop the violence\nIn a place like Chicago, where thousands of people have been killed, thousands over the last number of years\nalmost 4,000 have been killed since Barack Obama became president\"",
+        "dataset": "US2016",
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "Does Trump\u2019s reliance on anecdotal evidence from cities like Charlotte and Chicago adequately support the claim that violence is a national crisis?"
+            },
+            {
+                "id": 1,
+                "cq": "What specific data, beyond shootings, would Trump need to demonstrate a decline in safety across the country to justify his assertion about a \u201cwar-torn country\u201d?"
+            },
+            {
+                "id": 2,
+                "cq": "Does Trump\u2019s framing of the issue \u2013 specifically linking violence to specific demographic groups (African-Americans, Hispanics) \u2013 risk perpetuating harmful stereotypes and potentially influencing public perception of crime?"
+            }
+        ]
+    },
+    "travellots_133_1": {
+        "intervention_id": "travellots_133_1",
+        "intervention": "travellots: \"There should be no discrimination in how a passenger is bumped or compensated just because they may have paid less for a ticket or used frequent flyer miles.\nAirline tickets are not lottery tickets.\nOne does not purchase a ticket hoping to reach a certain destination.\nSame as if one pays $4 for a cup of coffee or $1, the cup is supposed to have coffee in it.\nThe price does not dictate that \"maybe\" you will get the product or service.\nAlso, the airline decides what prices or miles are used to purchase a promise to get you from point A to point B.\nIf they can not afford to give  a ticket for that price, they should not sell it.\nWhen you reserve a ticket, the assumption is that you will be taken from point A to point B by the times given by the airline.\nA passenger does not purchase a ticket just to see if maybe they can get somewhere because they have nothing better to do.\"",
+        "dataset": "rrd",
+        "cqs": [
+            {
+                "id": 0,
+                "cq": "Does the argument adequately address the airline\u2019s responsibility for factors beyond price, such as overbooking or mechanical issues?"
+            },
+            {
+                "id": 1,
+                "cq": "Does the analogy to purchasing a cup of coffee accurately reflect the complexities and contractual nature of an airline ticket?"
+            },
+            {
+                "id": 2,
+                "cq": "If airlines can\u2019t afford to sell tickets at a certain price, why do they continue to offer those tickets, and what are the implications of this practice for consumer expectations?"
+            }
+        ]
+    }
+}

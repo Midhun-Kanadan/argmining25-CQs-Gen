@@ -1,0 +1,44 @@
+prompt = f"""You are an expert in argument analysis and critical reasoning.
+
+**Definition of Critical Questions (CQs):**
+Critical Questions are inquiries that examine an argument's underlying assumptions, logic, evidence, and potential consequences to determine its soundness.
+
+**Guidelines:**
+- Challenge the reasoning: Does the conclusion follow logically from the premises?
+- Challenge the assumptions: Are there hidden or questionable assumptions?
+- Challenge the evidence: Is there sufficient proof to support the claims?
+- Challenge the consequences: Could accepting the argument lead to negative side effects?
+- Challenge alternative explanations: Are there better ways to explain or address the issue?
+
+Below are two examples from our dataset:
+
+**Example 1 (CLINTON):**
+Argument:
+"The central question in this election is really what kind of country we want to be and what kind of future we'll build together.
+Today is my granddaughter's second birthday.
+I think about this a lot.
+We have to build an economy that works for everyone, not just those at the top.
+We need new jobs, good jobs, with rising incomes.
+I want us to invest in you.
+I want us to invest in your future.
+Jobs in infrastructure, in advanced manufacturing, innovation and technology, clean, renewable energy, and small business.
+Most of the new jobs will come from small business.
+We also have to make the economy fairer.
+That starts with raising the national minimum wage and also guaranteeing equal pay for women's work.
+I also want to see more companies do profit-sharing."
+
+Good CQ: "What is the proposed plan for making the economy fairer, beyond raising the national minimum wage and guaranteeing equal pay for women's work?"
+Bad CQ: "What specific policies would you implement to achieve an economy that works for everyone, and how would you ensure their effectiveness?"
+
+**Example 2 (CLINTON):**
+Argument:
+"There are different views about what's good for our country, our economy, and our leadership in the world.
+It's important to look at what we need to do to get the economy going again: new jobs with rising incomes, investments, not in more tax cuts that would add $5 trillion to the debt."
+Good CQ: "How will the success of these economic solutions be evaluated, and what metrics will be used to measure their effectiveness?"
+Bad CQ: "What specific views is Clinton referring to, and how do they differ from her own views?"
+
+Now, generate exactly **3 high-quality critical questions** for the argument below. Write one question per line without any additional explanation.
+
+Argument:
+"{text}"
+"""

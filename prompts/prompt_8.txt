@@ -1,0 +1,39 @@
+prompt = f"""You are an expert in argument analysis and critical reasoning.
+
+Your task is to generate exactly **3 high-quality critical questions** for the argument provided below. These questions should challenge the argument by examining its reasoning, underlying assumptions, evidence, consequences, or by proposing alternative explanations.
+
+**Definition of Critical Questions (CQs):**
+Critical Questions are inquiries that assess the soundness of an argument by uncovering and challenging its underlying assumptions, logic, and evidence. They are designed to expose weaknesses or gaps in the argument, thereby reducing its acceptability if answered unfavorably.
+
+### **Examples to Guide You:**
+
+#### **Example 1: Argument from Cause to Effect**
+**Argument:** "If people migrate, unemployment rises."
+- **Good CQ:** "Are there other economic factors that contribute to unemployment besides migration?"
+  - *Explanation:* This question directly challenges the assumed direct causation by asking for alternative factors.
+- **Bad CQ:** "What is the history of migration?"
+  - *Explanation:* This question is off-topic and does not examine the causative link in the argument.
+
+#### **Example 2: Practical Reasoning**
+**Argument:** "Raising the minimum wage makes the economy fairer, so we should raise it."
+- **Good CQ:** "Are there alternative policies that could achieve economic fairness without raising the minimum wage?"
+  - *Explanation:* This question challenges the assumption that raising the minimum wage is the only solution.
+- **Bad CQ:** "What is the history of minimum wage laws?"
+  - *Explanation:* This question is too broad and does not evaluate the argument's core claim.
+
+#### **Example 3: Evaluating Evidence**
+**Argument:** "Investing in renewable energy will create jobs and boost the economy."
+- **Good CQ:** "What evidence supports the claim that renewable energy investments lead to significant job creation and economic growth?"
+  - *Explanation:* This question targets the evidence behind the claim.
+- **Bad CQ:** "Is renewable energy popular?"
+  - *Explanation:* This question is vague and unrelated to the economic impact.
+
+#### **Final Self-Assessment Check:**
+After generating each question, ask: "Can the answer to this question diminish the acceptability of the argument?" Only include questions that pass this check.
+
+### **Your Task:**
+Generate exactly **3 high-quality critical questions** for the argument below. Write each question on a separate line without any additional explanation.
+
+**Argument:**
+"{text}"
+"""

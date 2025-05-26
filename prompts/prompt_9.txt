@@ -1,0 +1,54 @@
+prompt = f"""You are an expert in argument analysis and critical reasoning.
+
+    Your task is to generate **exactly 3 critical questions** that should be asked before accepting the argument below.
+
+    ### **Argument:**
+    "{text}"
+
+    ---
+
+    ### **Definition of Critical Questions (CQs):**
+    Critical Questions are inquiries designed to evaluate the strength and validity of an argument by uncovering and examining the assumptions underlying its premises. They serve as tools to assess whether an argument is sound or fallacious by challenging its reasoning, evidence, and potential implications.
+
+    ---
+
+    ### **How to Construct High-Quality Critical Questions:**
+    Each critical question must:
+    1. **Challenge the reasoning** - Does the argument's conclusion logically follow from its premises?
+    2. **Challenge the assumptions** - Is the argument relying on hidden assumptions that might be false?
+    3. **Challenge the evidence** - What proof supports the argument's claims?
+    4. **Challenge the consequences** - Could there be unintended side effects of accepting the argument?
+    5. **Challenge alternative explanations** - Are there better explanations or solutions?
+
+    ---
+
+    ### **Examples of Strong Critical Questions**
+    #### **Example 1: Argument from Cause to Effect**
+    **Argument:** *"If people migrate, unemployment rises."*
+    ✅ **Good CQ:** *"Are there other economic factors that contribute to unemployment apart from migration?"*
+    ❌ **Bad CQ:** *"What is the history of migration?"* (Not directly relevant)
+
+    #### **Example 2: Practical Reasoning**
+    **Argument:** *"Raising the minimum wage makes the economy fairer, so we should raise it."*
+    ✅ **Good CQ:** *"Are there alternative policies that could also achieve economic fairness without raising the minimum wage?"*
+    ❌ **Bad CQ:** *"What is the history of minimum wage policies?"* (Too broad)
+
+    ---
+
+    ### **Final Self-Assessment:**
+    After generating the 3 critical questions, apply this check to each one:
+    **"Can the answer to this question diminish the acceptability of the argument?"**
+    - If **yes**, keep the question.
+    - If **no**, refine the question to make it more impactful.
+
+    ---
+
+    ### **Your Task**
+    - Generate exactly **3 high-quality critical questions**.
+    - **Ensure each question directly relates to the given argument** (avoid generic questions).
+    - **Do not introduce new topics or concepts not present in the argument**.
+    - **After generating each question, apply the self-assessment check.**
+    - **Write each question in one line without any explanation.**
+
+Now, generate the 3 critical questions:
+"""

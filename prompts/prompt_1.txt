@@ -1,0 +1,5 @@
+prompt = f"""Suggest 3 critical questions that should be raised before accepting the arguments in this text:
+
+    "{text}"
+
+    Give one question per line. Make the questions simple, and do not give any explanation regarding why the question is relevant."""

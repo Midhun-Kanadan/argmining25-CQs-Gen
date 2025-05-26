@@ -1,0 +1,138 @@
+prompt = f"""You are an expert in argument analysis and critical reasoning.
+
+Your task is to generate **exactly 3 critical questions** that should be asked before accepting the argument below.
+
+---
+
+### **Argument:**
+"{text}"
+
+---
+
+### **Definition of Critical Questions (CQs):**
+Critical Questions are inquiries designed to evaluate the strength and validity of an argument by uncovering and examining the assumptions underlying its premises. They serve as tools to assess whether an argument is sound or fallacious by challenging its reasoning, evidence, and potential implications.
+
+---
+
+### **How to Construct High-Quality Critical Questions:**
+Each critical question must:
+1. **Challenge the reasoning** - Does the argument's conclusion logically follow from its premises?
+2. **Challenge the assumptions** - Is the argument relying on hidden assumptions that might be false?
+3. **Challenge the evidence** - What proof supports the argument's claims?
+4. **Challenge the consequences** - Could there be unintended side effects of accepting the argument?
+5. **Challenge alternative explanations** - Are there better explanations or solutions?
+
+---
+
+### **Examples of Strong Critical Questions**
+Below are **different argumentation schemes** and how to critically analyze them.
+
+#### **Example 1: Argument from Cause to Effect**
+**Argument:** *"If people migrate, unemployment rises."*  
+✅ **Good CQ:** *"Are there other economic factors that contribute to unemployment apart from migration?"*  
+❌ **Bad CQ:** *"What is the history of migration?"* (Not directly relevant)
+
+#### **Example 2: Practical Reasoning**
+**Argument:** *"Raising the minimum wage makes the economy fairer, so we should raise it."*  
+✅ **Good CQ:** *"Are there alternative policies that could also achieve economic fairness without raising the minimum wage?"*  
+❌ **Bad CQ:** *"What is the history of minimum wage policies?"* (Too broad)
+
+#### **Example 3: Popular Practice**
+**Argument:** *"Most successful companies use profit-sharing, so we should too."*  
+✅ **Good CQ:** *"Are there cases where profit-sharing has failed? If so, what were the reasons?"*  
+❌ **Bad CQ:** *"What is the most common business model?"* (Irrelevant to the argument)
+
+#### **Example 4: Example**
+**Argument:** *"Germany’s renewable energy policies led to economic growth, so other countries should follow suit."*  
+✅ **Good CQ:** *"Is Germany’s economic situation comparable to other countries, or are there unique factors at play?"*  
+❌ **Bad CQ:** *"How did Germany develop its energy sector?"* (Does not directly challenge the conclusion)
+
+#### **Example 5: Sign**
+**Argument:** *"Crime is increasing because we see more police reports."*  
+✅ **Good CQ:** *"Are there other reasons why police reports may have increased without an actual rise in crime?"*  
+❌ **Bad CQ:** *"How do police stations collect reports?"* (Misses the core issue)
+
+#### **Example 6: Verbal Classification**
+**Argument:** *"E-sports are a sport because they require skill and competition."*  
+✅ **Good CQ:** *"Does being competitive and skill-based automatically classify an activity as a sport?"*  
+❌ **Bad CQ:** *"How many people play e-sports?"* (Not related to classification)
+
+#### **Example 7: Consequences**
+**Argument:** *"If we ban smoking, fewer people will suffer from lung diseases."*  
+✅ **Good CQ:** *"Could banning smoking create unintended consequences, such as a rise in black-market sales?"*  
+❌ **Bad CQ:** *"What are the effects of lung diseases?"* (Not evaluating the argument)
+
+#### **Example 8: Popular Opinion**
+**Argument:** *"Most people believe climate change is real, so it must be true."*  
+✅ **Good CQ:** *"Is the popularity of a belief a reliable indicator of its truthfulness?"*  
+❌ **Bad CQ:** *"How many people believe in climate change?"* (Misses the argument’s reasoning)
+
+#### **Example 9: Values**
+**Argument:** *"Healthcare should be free because access to medical care is a basic human right."*  
+✅ **Good CQ:** *"How do we balance the right to healthcare with the financial sustainability of healthcare systems?"*  
+❌ **Bad CQ:** *"Which countries offer free healthcare?"* (Descriptive, not critical)
+
+#### **Example 10: Analogy**
+**Argument:** *"Banning guns is like banning cars because both can be dangerous."*  
+✅ **Good CQ:** *"Are guns and cars similar enough to justify the same policy approach?"*  
+❌ **Bad CQ:** *"What is the history of gun laws?"* (Does not address the analogy)
+
+#### **Example 11: Fear Appeal**
+**Argument:** *"If we don’t increase defense spending, our country will be attacked."*  
+✅ **Good CQ:** *"Is there evidence that increased defense spending actually prevents attacks?"*  
+❌ **Bad CQ:** *"How much is the current defense budget?"* (Misses the argument)
+
+#### **Example 12: Danger Appeal**
+**Argument:** *"We must act now, or global warming will be irreversible in ten years."*  
+✅ **Good CQ:** *"Is the stated timeframe for irreversible climate change supported by scientific consensus?"*  
+❌ **Bad CQ:** *"What is the current CO2 level in the atmosphere?"* (Does not evaluate the claim)
+
+#### **Example 13: Expert Opinion**
+**Argument:** *"A Nobel Prize-winning economist says tax cuts will boost the economy."*  
+✅ **Good CQ:** *"What is the expert’s track record on economic predictions?"*  
+❌ **Bad CQ:** *"Who are the previous Nobel Prize winners?"* (Irrelevant)
+
+#### **Example 14: Bias**
+**Argument:** *"This study is funded by a tobacco company, so its results are unreliable."*  
+✅ **Good CQ:** *"Does the study contain verifiable data that supports its conclusions, regardless of funding?"*  
+❌ **Bad CQ:** *"Which companies fund tobacco research?"* (Too broad)
+
+#### **Example 15: Alternatives**
+**Argument:** *"Instead of raising taxes, we should cut government spending to reduce the deficit."*  
+✅ **Good CQ:** *"Are there situations where a combination of tax increases and spending cuts is more effective?"*  
+❌ **Bad CQ:** *"What are different types of taxes?"* (Not critical)
+
+#### **Example 16: Generic Ad Hominem**
+**Argument:** *"You shouldn’t listen to John’s economic advice; he dropped out of college."*  
+✅ **Good CQ:** *"Does John’s educational background affect the validity of his economic argument?"*  
+❌ **Bad CQ:** *"What school did John attend?"* (Misses the argument)
+
+#### **Example 17: Circumstantial Ad Hominem**
+**Argument:** *"Of course she supports raising the minimum wage—she works a minimum-wage job!"*  
+✅ **Good CQ:** *"Is her argument about raising the minimum wage valid regardless of her job situation?"*  
+❌ **Bad CQ:** *"What is her current wage?"* (Does not address the argument)
+
+#### **Example 18: Position to Know**
+**Argument:** *"As a doctor, I know that vaccines are safe and effective."*  
+✅ **Good CQ:** *"Does the speaker’s expertise in medicine specifically support their claim about vaccines?"*  
+❌ **Bad CQ:** *"How many years did the doctor study?"* (Not directly relevant)
+
+---
+
+### **Final Self-Assessment**
+After generating the 3 critical questions, apply this check to each one:
+**"Can the answer to this question diminish the acceptability of the argument?"**
+- If **yes**, keep the question.
+- If **no**, refine the question to make it more impactful.
+
+---
+
+### **Your Task**
+- Generate exactly **3 high-quality critical questions**.
+- **Ensure each question directly relates to the given argument** (avoid generic questions).
+- **Do not introduce new topics or concepts not present in the argument**.
+- **After generating each question, apply the self-assessment check.**
+- **Write each question in one line without any explanation.**
+
+Now, generate the 3 critical questions:
+"""
